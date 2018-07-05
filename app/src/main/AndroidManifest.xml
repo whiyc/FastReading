@@ -27,7 +27,6 @@
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:windowSoftInputMode="stateHidden"
             android:screenOrientation="portrait" />
-
         <activity
             android:name=".ui.SchulteGrid.SchulteGridActivity"
             android:configChanges="orientation|screenSize|keyboardHidden|uiMode|keyboard|layoutDirection"

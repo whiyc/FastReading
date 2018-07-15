@@ -16,12 +16,14 @@
             android:id="@+id/bt_main_mine"
             android:layout_width="100dp"
             android:layout_height="200dp"
+            android:background="@drawable/selector_main_btn"
             android:text="我的" />
 
         <Button
             android:id="@+id/bt_main_vision"
             android:layout_width="200dp"
             android:layout_height="100dp"
+            android:background="@drawable/selector_main_btn"
             android:layout_toRightOf="@+id/bt_main_mine"
             android:text="视图" />
 
@@ -29,6 +31,7 @@
             android:id="@+id/bt_main_pic"
             android:layout_width="200dp"
             android:layout_height="100dp"
+            android:background="@drawable/selector_main_btn"
             android:layout_below="@+id/bt_main_vision"
             android:layout_toRightOf="@+id/bt_main_mine"
             android:text="图片" />
@@ -37,6 +40,7 @@
             android:id="@+id/bt_main_schulte"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="@drawable/selector_main_btn"
             android:layout_below="@+id/bt_main_mine"
             android:text="舒尔特表" />
     </RelativeLayout>

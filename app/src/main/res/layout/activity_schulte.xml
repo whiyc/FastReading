@@ -9,9 +9,27 @@
         android:layout_height="300dp"
         android:layout_centerInParent="true" />
 
-    <Button
-        android:id="@+id/bt_schulte_reset"
+    <RelativeLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="reset"/>
+        android:layout_below="@+id/schulteview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/bt_schult_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="start"/>
+
+        <Button
+            android:layout_toRightOf="@+id/bt_schult_start"
+            android:id="@+id/bt_schulte_reset"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="reset"/>
+
+    </RelativeLayout>
+
 </RelativeLayout>
